@@ -15,10 +15,10 @@ func _ready():
 	# Called every time the node is added to the scene.
 	# Initialization here
 	self.add_child(p1)
-	p1.move_to(Vector2(50, -200))
+	p1.set_pos(Vector2(191.169006, 0))
 	p1.setKey("wasd_up", "wasd_right", "wasd_left")
 	self.add_child(p2)
-	p2.move_to(Vector2(200, -200))
+	p2.set_pos(Vector2(831.482971,0))
 	scorep1.add_text("Potato: 5")
 	scorep2.push_align(HALIGN_RIGHT)
 	scorep2.add_text("Tomato: 5")
